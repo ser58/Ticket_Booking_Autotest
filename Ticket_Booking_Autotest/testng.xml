@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="1" name="Бронирование билетов">
+	<parameter name="baseUrl" value="https://pass.gamma.oooinex.ru" />
+	
+	<parameter name="baseUrlPortal" value="https://172.22.2.238/wps/myportal/" />
+	<parameter name="baseUrlNews" value="http://press.gamma.oooinex.ru/news/public/ru" />
+	
+	<!-- parameter name="baseUrl" value="https://test-pass.rzd.ru"/-->
+	<!-- parameter name="profile" value="FirefoxAutotest" /-->
+	<parameter name="profile" value="FirefoxAutotest" />
+
+	<parameter name="login" value="sergey.gorelov" />
+	<parameter name="password" value="sergor2016" />
+
+	<!-- Which browser to use. Can be configured either programmatically or by system property "-Dselenide.browser=ie" or "-Dbrowser=ie". -->
+	<!-- Supported values: "chrome", "firefox", "ie", "htmlunit", "phantomjs", "opera", "marionette" -->
+	<parameter name="browser" value="firefox" />
+	<parameter name="holdBrowser" value="false" />
+	
+	<parameter name="reportsFolder" value="D:/hgtest/Ticket_Booking_Autotest/screenshots" />
+	<parameter name="reportsUrl" value="ftp://172.22.2.150/" />
+	<parameter name="timeout" value="120000" />
+
+	<parameter name="newVersion" value="false" />
+	
+	<parameter name="paymentGatewayPlug" value="false" />
+	<parameter name="payment_DataFile" value="/src/test/ru/oooinex/data/payment/Payment_Cards_Data.json" />
+	
+	<parameter name="yandexMoneyLogin" value="Test-for-yamoney@yandex.ru" />
+	<parameter name="yandexMoneyPassword" value="test4yamoney" />
+	<parameter name="yandexPayPassword" value="testforyamoney" />
+	
+	<suite-files>
+		<suite-file path="src/suites/DirectTrain.xml" />
+		<suite-file path="src/suites/DirectTrainTransfer.xml" />
+		<suite-file path="src/suites/ReturnTrain.xml" />
+		<suite-file path="src/suites/ReturnTrainTransfer.xml" />
+		<suite-file path="src/suites/PressCenter_Navigation.xml" />
+		<suite-file path="src/suites/PressCenter_NewsReleases.xml" />
+		<suite-file path="src/suites/Suggestions.xml" />
+	</suite-files>
+</suite>

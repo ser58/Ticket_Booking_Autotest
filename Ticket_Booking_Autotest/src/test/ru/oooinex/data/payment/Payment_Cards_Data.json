@@ -1,0 +1,26 @@
+{
+	"cards": 
+	[
+		{
+			"id": 1,
+			"cardNumber": "4150399999000033",
+			"cardholder": "IVAN PETROV", 
+			"CVV2": "687",
+			"validityPeriod": "01/18"
+		},
+		{
+			"id": 2,
+			"cardNumber": "4058889915002926",
+			"cardholder": "PETR IVANOV",
+			"CVV2": "415",
+			"validityPeriod": "03/19"
+		},
+		{
+			"id": 3,
+			"cardNumber": "4150399999000900",
+			"cardholder": "SIDOR PETROV", 
+			"CVV2": "620",
+			"validityPeriod": "08/20"
+		}
+	]
+}

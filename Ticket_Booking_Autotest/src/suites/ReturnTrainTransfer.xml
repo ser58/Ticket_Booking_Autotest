@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite verbose="1" name="Проверка продажи билета туда и обратно с пересадкой">
+
+	<parameter name="returnTrainWithTransfer_DataFile" value="/src/test/ru/oooinex/data/ticket/ReturnTrainWithTransferData.json" />
+
+	<test name="Продажа билета туда и обратно с пересадкой Тула - Вязьма (электричка - поезд дальнего следования)"
+		preserve-order="true"
+		enabled="true">
+		<parameter name="trainNumber" value="1" />
+		<parameter name="paymentCard" value="2" />
+		<classes>
+			<class name="test.ru.oooinex.autotests.buyticket.tests.ReturnTrainWithTransferTest">
+				<methods>
+					<include name="Login" />
+					<include name="FillStartForm" /> 
+					<include name="SelectReturnTrainWithTransfer" />
+					<include name="SelectWagonReturnTrainWithTransfer" />
+					<include name="FillPassengerForms" />
+					<include name="FillPlaceSigns" />
+					<include name="PassengerDataValidation" />
+					<include name="Payment" />
+					<include name="CompleteOrderProcessing" />
+					<include name="Results" />
+					<exclude name="CancelRegistrationAndRefund" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+</suite>

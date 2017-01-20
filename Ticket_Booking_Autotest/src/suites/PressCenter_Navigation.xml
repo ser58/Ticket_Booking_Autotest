@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="1" name="Администрирование: Навигация">
+
+	<parameter name="navigation_DataFile" value="/src/test/ru/oooinex/data/presscentr/NavigationData.json" />
+
+	<test name="Администратор: Навигация: Создание топика 1 уровня" 
+		preserve-order="true"
+		enabled="false">
+		
+		<parameter name="deleteEntityAfterComplete" value="true" />
+				
+		<classes>
+			<class
+				name="test.ru.oooinex.autotests.presscenter.tests.Admin_Navigation">
+				<methods>
+					<include name="AdminLogin" />
+					<include name="EnterIntoPressCenter" />
+					<include name="CreateFirstLevelTopic" />
+					<exclude name="СheckTopicsInAdmin" />
+					<exclude name="CheckTopicsInUserInterface" />
+					<exclude name="DeleteTopic" /> 
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+</suite>

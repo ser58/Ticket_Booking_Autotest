@@ -1,0 +1,134 @@
+{
+	"trains": 
+	[
+		{
+			"id": 1,
+			"description": "Продажа билета с пересадкой туда и обратно Тула - Вязьма (электричка - поезд дальнего следования)",
+			"from": "ТУЛА",
+			"to": "ВЯЗЬМА",
+			"dayOfWeek": [5, 1],
+			"departureTime": [0, 24], 
+			"onlyWithTickets": true,
+			"localTrain": true,
+			"return": true,
+			"routeOptions": [
+				{
+					"directTrain": [
+						{
+							"trainNumber": "№ 726М",
+							"carCheckers": "все",
+							"wagonType": "Сидячий",
+							"wagonCategory": "",
+							"servicesAndCapabilities": "",
+							"carrier": "",
+							"places": {
+								"plGender": "Смешанное",
+								"plKupe": true,
+								"range0": "1",
+								"range1": "50",
+								"plBedding": true,
+								"plUpDown": "2 нижних",
+								"plComp": "Не имеет значения"
+							}
+						},
+						{
+							"transferTrainNumber": "№ 075Б",
+							"transferWagonType": "Купе (2К)",
+							"transferWagonCategory": "",
+							"transferServicesAndCapabilities": "",
+							"carrier": "",
+							"transferStation": "Москва",
+							"transferTimeFrom": "0",
+							"transferTimeTo": "10",
+							"showAll": false,
+							"places": {
+								"plGender": "",
+								"plKupe": true,
+								"range0": "1",
+								"range1": "20",
+								"plBedding": true,
+								"plUpDown": "Не имеет значения",
+								"plComp": ""
+							}
+						}
+					],
+					"foreignTrain": false
+				},
+				{
+					"returnTrain": [
+						{
+							"trainNumber": "№ 002Б",
+							"carCheckers": "все",
+							"wagonType": "СВ (1Б)",
+							"wagonCategory": "МЖ У1",
+							"servicesAndCapabilities": "",
+							"carrier": "",
+							"places": {
+								"plGender": "Смешанное",
+								"plKupe": true,
+								"range0": "1",
+								"range1": "10",
+								"plBedding": false,
+								"plUpDown": "",
+								"plComp": ""
+							}
+						},
+						{
+							"transferTrainNumber": "№ 119А",
+							"transferWagonType": "Сидячий (2С)",
+							"transferWagonCategory": "",
+							"transferServicesAndCapabilities": "",
+							"carrier": "",
+							"transferStation": "Москва",
+							"transferTimeFrom": "0",
+							"transferTimeTo": "8",
+							"showAll": false,
+							"places": {
+								"plGender": "",
+								"plKupe": false,
+								"range0": "1",
+								"range1": "40",
+								"plBedding": false,
+								"plUpDown": "",
+								"plComp": ""
+							}
+						}
+					],
+					"foreignTrain": false
+				}
+			],
+			"passengers": 
+			[
+				{
+					"id": 1,
+					"lastName": "Иванов",
+					"firstName": "Петр",
+					"middleName": "Сидорович",
+					"documentType": "Паспорт моряка",
+					"documentNumber": "ВМ1234567",
+					"tariff": "Полный",
+					"citizenship": "Россия",
+					"gender": "Мужской",
+					"dateOfBirth": "01.01.1950",
+					"insurance": "",
+					"phoneNumber": "8 916 1111111"
+				},
+
+				{
+					"id": 2,
+					"lastName": "Иванов",
+					"firstName": "Петр",
+					"middleName": "Сидорович",
+					"documentType": "Паспорт формы СССР",
+					"documentNumber": "IVГР585858",
+					"tariff": "Полный",
+					"citizenship": "Россия",
+					"gender": "Мужской",
+					"dateOfBirth": "01.01.1995",
+					"insurance": "",
+					"phoneNumber": "8 916 1111111"
+				}
+			]
+		}
+	]
+}

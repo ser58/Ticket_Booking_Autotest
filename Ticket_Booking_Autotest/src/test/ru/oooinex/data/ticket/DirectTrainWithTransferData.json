@@ -1,0 +1,360 @@
+{
+	"trains": 
+	[
+		{
+			"id": 1,
+			"description": "Поезд дальнего следования с пересадкой с поезда на поезд",
+			"from": "МОСКВА",
+			"to": "СОРТАВАЛА",
+			"dayOfWeek": [3, 2],
+			"departureTime": [0, 24], 
+			"onlyWithTickets": true,
+			"localTrain": false,
+			"return": false,
+			"routeOptions": [
+				{
+					"directTrain": [
+						{
+							"trainNumber": "№ 016А",
+							"carCheckers": "все",
+							"wagonType": "Купе (2Э)",
+							"wagonCategory": "МЖ У1",
+							"servicesAndCapabilities": "",
+							"carrier": "",
+							"places": {
+								"plGender": "Смешанное",
+								"plKupe": true,
+								"range0": "1",
+								"range1": "30",
+								"plBedding": true,
+								"plUpDown": "2 нижних",
+								"plComp": "Не имеет значения"
+							}
+						},
+						{
+							"transferTrainNumber": "№ 350А",
+							"transferWagonType": "Плацкартный (3Л)",
+							"transferWagonCategory": "",
+							"transferServicesAndCapabilities": "",
+							"carrier": "",
+							"transferStation": "Санкт-Петербург Ладож.",
+							"transferTimeFrom": "0",
+							"transferTimeTo": "10",
+							"showAll": false,
+							"places": {
+								"plGender": "",
+								"plKupe": true,
+								"range0": "1",
+								"range1": "50",
+								"plBedding": true,
+								"plUpDown": "Нижнее",
+								"plComp": "В одном отсеке плацкартного вагона"
+							}
+						}
+					],
+					"foreignTrain": false
+				},
+				{
+					"returnTrain": [
+						{
+							"trainNumber": "",
+							"carCheckers": "все",
+							"wagonType": "",
+							"wagonCategory": "",
+							"servicesAndCapabilities": "",
+							"carrier": "",
+							"places": {
+								"plGender": "",
+								"plKupe": "",
+								"range0": "",
+								"range1": "",
+								"plBedding": "",
+								"plUpDown": "",
+								"plComp": ""
+							}
+						},
+						{
+							"transferTrainNumber": "",
+							"transferWagonType": "",
+							"transferWagonCategory": "",
+							"transferServicesAndCapabilities": "",
+							"carrier": "",
+							"transferStation": "",
+							"transferTimeFrom": "",
+							"transferTimeTo": "",
+							"showAll": false,
+							"places": {
+								"plGender": "",
+								"plKupe": "",
+								"range0": "",
+								"range1": "",
+								"plBedding": "",
+								"plUpDown": "",
+								"plComp": ""
+							}
+						}
+					],
+					"foreignTrain": false
+				}
+			],
+			"passengers": [
+				{
+					"id": 1,
+					"lastName": "Иванов",
+					"firstName": "Петр",
+					"middleName": "Сидорович",
+					"documentType": "Паспорт РФ",
+					"documentNumber": "4504123123",
+					"tariff": "Полный",
+					"citizenship": "Россия",
+					"gender": "Мужской",
+					"dateOfBirth": "01.01.1950",
+					"insurance": "",
+					"phoneNumber": "8 916 1111111"
+				}
+			]
+		},
+		{
+			"id": 2,
+			"description": "Поезд дальнего следования с пересадкой с поезда на электричку",
+			"from": "МОСКВА",
+			"to": "ВАЛУЙКИ",
+			"dayOfWeek": [5, 1],
+			"departureTime": [0, 24], 
+			"onlyWithTickets": true,
+			"localTrain": true,
+			"return": false,
+			"routeOptions": [
+				{
+					"directTrain": [
+						{
+							"trainNumber": "№ 057В",
+							"carCheckers": "все",
+							"wagonType": "Купе (2Э)",
+							"wagonCategory": "МЖ У1",
+							"servicesAndCapabilities": "",
+							"carrier": "",
+							"places": {
+								"plGender": "Смешанное",
+								"plKupe": true,
+								"range0": "1",
+								"range1": "30",
+								"plBedding": true,
+								"plUpDown": "2 нижних",
+								"plComp": "Не имеет значения"
+							}
+						},
+						{
+							"transferTrainNumber": "№ 555В",
+							"transferWagonType": "",
+							"transferWagonCategory": "",
+							"transferServicesAndCapabilities": "",
+							"carrier": "",
+							"transferStation": "",
+							"transferTimeFrom": "0",
+							"transferTimeTo": "10",
+							"showAll": false,
+							"places": {
+								"plGender": "",
+								"plKupe": false,
+								"range0": "1",
+								"range1": "50",
+								"plBedding": true,
+								"plUpDown": "",
+								"plComp": ""
+							}
+						}
+					],
+					"foreignTrain": false
+				},
+				{
+					"returnTrain": [
+						{
+							"trainNumber": "",
+							"carCheckers": "все",
+							"wagonType": "",
+							"wagonCategory": "",
+							"servicesAndCapabilities": "",
+							"carrier": "",
+							"places": {
+								"plGender": "",
+								"plKupe": "",
+								"range0": "",
+								"range1": "",
+								"plBedding": "",
+								"plUpDown": "",
+								"plComp": ""
+							}
+						},
+						{
+							"transferTrainNumber": "",
+							"transferWagonType": "",
+							"transferWagonCategory": "",
+							"transferServicesAndCapabilities": "",
+							"carrier": "",
+							"transferStation": "",
+							"transferTimeFrom": "",
+							"transferTimeTo": "",
+							"showAll": false,
+							"places": {
+								"plGender": "",
+								"plKupe": "",
+								"range0": "",
+								"range1": "",
+								"plBedding": "",
+								"plUpDown": "",
+								"plComp": ""
+							}
+						}
+					],
+					"foreignTrain": false
+				}
+			],
+			"passengers": [
+				{
+					"id": 1,
+					"lastName": "Иванов",
+					"firstName": "Петр",
+					"middleName": "Сидорович",
+					"documentType": "Паспорт РФ",
+					"documentNumber": "4504123123",
+					"tariff": "Полный",
+					"citizenship": "Россия",
+					"gender": "Мужской",
+					"dateOfBirth": "01.01.1950",
+					"insurance": "",
+					"phoneNumber": "8 916 1111111"
+				}
+			]
+		},
+		{
+			"id": 3,
+			"description": "Продажа билета с пересадкой Тула - Вязьма (электричка - поезд дальнего следования)",
+			"from": "ТУЛА",
+			"to": "ВЯЗЬМА",
+			"dayOfWeek": [5, 1],
+			"departureTime": [0, 24], 
+			"onlyWithTickets": true,
+			"localTrain": true,
+			"return": false,
+			"routeOptions": [
+				{
+					"directTrain": [
+						{
+							"trainNumber": "№ 6970",
+							"carCheckers": "все",
+							"wagonType": "",
+							"wagonCategory": "",
+							"servicesAndCapabilities": "",
+							"carrier": "",
+							"places": {
+								"plGender": "Смешанное",
+								"plKupe": true,
+								"range0": "1",
+								"range1": "50",
+								"plBedding": true,
+								"plUpDown": "2 нижних",
+								"plComp": "Не имеет значения"
+							}
+						},
+						{
+							"transferTrainNumber": "№ 033Ж",
+							"transferWagonType": "Плацкартный (3Л)",
+							"transferWagonCategory": "",
+							"transferServicesAndCapabilities": "",
+							"carrier": "",
+							"transferStation": "",
+							"transferTimeFrom": "0",
+							"transferTimeTo": "10",
+							"showAll": false,
+							"places": {
+								"plGender": "",
+								"plKupe": false,
+								"range0": "1",
+								"range1": "20",
+								"plBedding": true,
+								"plUpDown": "",
+								"plComp": ""
+							}
+						}
+					],
+					"foreignTrain": false
+				},
+				{
+					"returnTrain": [
+						{
+							"trainNumber": "",
+							"carCheckers": "все",
+							"wagonType": "",
+							"wagonCategory": "",
+							"servicesAndCapabilities": "",
+							"carrier": "",
+							"places": {
+								"plGender": "",
+								"plKupe": "",
+								"range0": "",
+								"range1": "",
+								"plBedding": "",
+								"plUpDown": "",
+								"plComp": ""
+							}
+						},
+						{
+							"transferTrainNumber": "",
+							"transferWagonType": "",
+							"transferWagonCategory": "",
+							"transferServicesAndCapabilities": "",
+							"carrier": "",
+							"transferStation": "",
+							"transferTimeFrom": "",
+							"transferTimeTo": "",
+							"showAll": false,
+							"places": {
+								"plGender": "",
+								"plKupe": "",
+								"range0": "",
+								"range1": "",
+								"plBedding": "",
+								"plUpDown": "",
+								"plComp": ""
+							}
+						}
+					],
+					"foreignTrain": false
+				}
+			],
+			"passengers": 
+			[
+				{
+					"id": 1,
+					"lastName": "Иванов",
+					"firstName": "Петр",
+					"middleName": "Сидорович",
+					"documentType": "Паспорт моряка",
+					"documentNumber": "ВМ1234567",
+					"tariff": "Полный",
+					"citizenship": "Россия",
+					"gender": "Мужской",
+					"dateOfBirth": "01.01.1950",
+					"insurance": "",
+					"phoneNumber": "8 916 1111111"
+				},
+
+				{
+					"id": 2,
+					"lastName": "Иванов",
+					"firstName": "Петр",
+					"middleName": "Сидорович",
+					"documentType": "Паспорт формы СССР",
+					"documentNumber": "IVГР585858",
+					"tariff": "Полный",
+					"citizenship": "Россия",
+					"gender": "Мужской",
+					"dateOfBirth": "01.01.1995",
+					"insurance": "",
+					"phoneNumber": "8 916 1111111"
+				}
+			]
+		}
+	]
+}

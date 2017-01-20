@@ -1,0 +1,65 @@
+{
+	"news": 
+	[
+		{
+			"id": 1,
+			"header": "Непрерывная интеграция (continuous integration) — это очень, очень хорошо.",
+			"highlightInColor": true,
+			"announcement": "анонс",
+			"position": "",
+			"text": "Jenkins – написанный на адском Java, со страшным GUI, адски тормозящий “сервер” непрерывной интеграции. Смысла в нём почти никакого, кроме того что он – готовый базис для перечисленных задач. Сам он почти ничего не умеет, а только рулит сторонними процессами и плагинами. Как будет понятно дальше – это нам и надо.",
+			"reference": "справка",
+			"goals": {
+				"newsForPassengers": true,
+				"newsForTrucks": false,
+				"internationalNews": false,
+				"dzoNews": false,
+				"investorsNews": false,
+				"onlineAccreditation": false,
+				"includeInNewsletter": false
+			},
+			"etbPosition": "",
+			"startingOfPasengers": "",
+			"sections": ">>Пресс-центр>>Пресс-релизы",
+			"headings": ">>Пассажирам",
+			"newsPhotoreportID": "25521",
+			"publicationDate": "immediately",
+			"dateForCalendar": "",
+			"publicationStatus": "везде",
+			"pressFolderName": "Пресс-папка",
+			"comment": "Комментарий",
+			"actionName": "Наименование мероприятия с онлайн-аккредитацией",
+			"accreditationCompletionDate": ""		
+		},
+		{
+			"id": 2,
+			"header": "Тестовая новость 2",
+			"highlightInColor": true,
+			"announcement": "анонс",
+			"position": "",
+			"text": "текст",
+			"reference": "справка",
+			"goals": {
+				"newsForPassengers": true,
+				"newsForTrucks": false,
+				"internationalNews": false,
+				"dzoNews": false,
+				"investorsNews": false,
+				"onlineAccreditation": false,
+				"includeInNewsletter": false
+			},
+			"etbPosition": "0",
+			"startingOfPasengers": "0",
+			"sections": ">>Пресс-центр>>Пресс-релизы",
+			"headings": ">>Пассажирам",
+			"newsPhotoreportID": "25521",
+			"publicationDate": "immediately",
+			"dateForCalendar": "",
+			"publicationStatus": "везде",
+			"pressFolderName": "Пресс-папка",
+			"comment": "Комментарий",
+			"actionName": "Наименование мероприятия с онлайн-аккредитацией",
+			"accreditationCompletionDate": "now"		
+		}
+	]
+}

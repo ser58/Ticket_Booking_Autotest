@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="1" name="Администрирование: Новости / Релизы">
+
+	<parameter name="smiReviews_DataFile" value="/src/test/ru/oooinex/data/presscentr/NewsReleasesData.json" />
+
+	<test name="Контент: Новости / Релизы" 
+		preserve-order="true"
+		enabled="true">
+		
+		<parameter name="deleteEntityAfterComplete" value="true" />
+		<parameter name="newsNumber" value="1" />
+		
+		<classes>
+			<class
+				name="test.ru.oooinex.autotests.presscenter.tests.Content_NewsReleases">
+				<methods>
+					<include name="AdminLogin" />
+					<include name="EnterIntoPressCenter" />
+					<include name="AddNewsToAdmin" />
+					<include name="СheckNewsInAdmin" />
+					<include name="CheckNewsOnUserInterface" />
+					<include name="DeleteNews" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+</suite>

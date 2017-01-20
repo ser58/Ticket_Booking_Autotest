@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite verbose="1" name="Проверка продажи билета на поезд дальнего следования в одну сторону">
+
+	<parameter name="directTrain_DataFile" value="/src/test/ru/oooinex/data/ticket/DirectTrainData.json" />
+
+	<test name="Продажа билета на поезд дальнего следования в одну сторону на внутренний рейс" 
+		  preserve-order="true" 
+		  enabled="false">
+		<parameter name="trainNumber" value="1" />
+		<parameter name="payMethod" value="bank" />
+		<parameter name="paymentCard" value="2" />
+		<classes>
+			<class name="test.ru.oooinex.autotests.buyticket.tests.DirectTrainTest">
+				<methods>
+					<include name="Login" />
+					<include name="FillStartForm" />
+					<include name="SelectDirectTrain" />
+					<include name="SelectWagonDirectTrain" />
+					<include name="FillPassengerForms" />
+					<include name="FillPlaceSigns" />
+					<exclude name="CheckBedding" />
+					<include name="CheckTariffs" />
+					<include name="PassengerDataValidation" />
+					<include name="Payment" />
+					<include name="CompleteOrderProcessing" />
+					<include name="Results" />
+					<include name="CheckResultTariffs" />
+					<include name="CheckOrderFormsWithoutRefund" />
+					<include name="CancelRegistrationAndRefund" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="Продажа билета на поезд дальнего следования в одну сторону на внутренний рейс, вагон 'Люкс', детские места (с местом и без места)" 
+	      preserve-order="true"
+	      enabled = "false">
+		<parameter name="trainNumber" value="2" />
+		<parameter name="payMethod" value="bank" />
+		<parameter name="paymentCard" value="2" />
+		<classes>
+			<class name="test.ru.oooinex.autotests.buyticket.tests.DirectTrainTest">
+				<methods>
+					<include name="Login" />
+					<include name="FillStartForm" />
+					<include name="SelectDirectTrain" />
+					<include name="SelectWagonDirectTrain" />
+					<include name="FillPassengerForms" />
+					<include name="FillPlaceSigns" />
+					<exclude name="CheckBedding" />
+					<include name="CheckTariffs" />
+					<include name="PassengerDataValidation" />
+					<include name="Payment" />
+					<include name="CompleteOrderProcessing" />
+					<include name="Results" />
+					<include name="CheckResultTariffs" />
+					<include name="CheckOrderFormsWithoutRefund" />
+					<include name="CancelRegistrationAndRefund" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="Продажа билета на поезд дальнего следования в одну сторону на внутренний рейс, плацкартный вагон, школьные места"
+		preserve-order="true"
+		enabled="true">
+		<parameter name="trainNumber" value="3" />
+		<parameter name="payMethod" value="yandex" />
+		<parameter name="paymentCard" value="2" />
+		<classes>
+			<class name="test.ru.oooinex.autotests.buyticket.tests.DirectTrainTest">
+				<methods>
+					<include name="Login" />
+					<include name="FillStartForm" />
+					<include name="SelectDirectTrain" />
+					<include name="SelectWagonDirectTrain" />
+					<include name="FillPassengerForms" />
+					<include name="FillPlaceSigns" />
+					<exclude name="CheckBedding" />
+					<include name="CheckTariffs" />
+					<include name="PassengerDataValidation" />
+					<include name="Payment" />
+					<include name="CompleteOrderProcessing" />
+					<include name="Results" />
+					<include name="CheckResultTariffs" />
+					<include name="CheckOrderFormsWithoutRefund" />
+					<include name="CancelRegistrationAndRefund" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="Продажа билета на поезд дальнего следования 'Сапсан', с тарифами 'SENIOR' и 'UNIOR'"
+		preserve-order="true"
+		enabled="true">
+		<parameter name="trainNumber" value="4" />
+		<parameter name="payMethod" value="bank" />
+		<parameter name="paymentCard" value="2" />
+		<classes>
+			<class name="test.ru.oooinex.autotests.buyticket.tests.DirectTrainTest">
+				<methods>
+					<include name="Login" />
+					<include name="FillStartForm" />
+					<include name="SelectDirectTrain" />
+					<include name="SelectWagonDirectTrain" />
+					<include name="FillPassengerForms" />
+					<include name="FillPlaceSigns" />
+					<exclude name="CheckBedding" />
+					<include name="CheckTariffs" />
+					<include name="PassengerDataValidation" />
+					<include name="Payment" />
+					<include name="CompleteOrderProcessing" />
+					<include name="Results" />
+					<include name="CheckResultTariffs" />
+					<include name="CheckOrderFormsWithoutRefund" />
+					<include name="CancelRegistrationAndRefund" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="Продажа билета на поезд дальнего следования 'Сапсан', с тарифами 'SENIOR', 'JUNIOR (от 10 до 21 года)', 'Детский' и 'Детский без места'"
+		preserve-order="true"
+		enabled="true">
+		<parameter name="trainNumber" value="5" />
+		<parameter name="payMethod" value="bank" />
+		<parameter name="paymentCard" value="2" />
+		<classes>
+			<class name="test.ru.oooinex.autotests.buyticket.tests.DirectTrainTest">
+				<methods>
+					<include name="Login" />
+					<include name="FillStartForm" />
+					<include name="SelectDirectTrain" />
+					<include name="SelectWagonDirectTrain" />
+					<include name="FillPassengerForms" />
+					<include name="FillPlaceSigns" />
+					<exclude name="CheckBedding" />
+					<include name="CheckTariffs" />
+					<include name="PassengerDataValidation" />
+					<include name="Payment" />
+					<include name="CompleteOrderProcessing" />
+					<include name="Results" />
+					<include name="CheckResultTariffs" />
+					<include name="CheckOrderFormsWithoutRefund" />
+					<include name="CancelRegistrationAndRefund" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="Продажа билета на поезд дальнего следования 'Сапсан', места для матери и ребенка"
+		preserve-order="true"
+		enabled="true">
+		<parameter name="trainNumber" value="6" />
+		<parameter name="payMethod" value="bank" />
+		<parameter name="paymentCard" value="2" />
+		<classes>
+			<class name="test.ru.oooinex.autotests.buyticket.tests.DirectTrainTest">
+				<methods>
+					<include name="Login" />
+					<include name="FillStartForm" />
+					<include name="SelectDirectTrain" />
+					<include name="SelectWagonDirectTrain" />
+					<include name="FillPassengerForms" />
+					<include name="FillPlaceSigns" />
+					<exclude name="CheckBedding" />
+					<include name="CheckTariffs" />
+					<include name="PassengerDataValidation" />
+					<include name="Payment" />
+					<include name="CompleteOrderProcessing" />
+					<include name="Results" />
+					<include name="CheckResultTariffs" />
+					<include name="CheckOrderFormsWithoutRefund" />
+					<include name="CancelRegistrationAndRefund" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="Продажа билета на поезд дальнего следования 7xxx номер"
+		preserve-order="true"
+		enabled="false">
+		<parameter name="trainNumber" value="7" />
+		<parameter name="payMethod" value="bank" />
+		<parameter name="paymentCard" value="2" />
+		<classes>
+			<class name="test.ru.oooinex.autotests.buyticket.tests.DirectTrainTest">
+				<methods>
+					<include name="Login" />
+					<include name="FillStartForm" />
+					<include name="SelectDirectTrain" />
+					<include name="SelectWagonDirectTrain" />
+					<include name="FillPassengerForms" />
+					<include name="FillPlaceSigns" />
+					<exclude name="CheckBedding" />
+					<include name="CheckTariffs" />
+					<include name="PassengerDataValidation" />
+					<include name="Payment" />
+					<include name="CompleteOrderProcessing" />
+					<include name="Results" />
+					<include name="CheckResultTariffs" />
+					<include name="CheckOrderFormsWithoutRefund" />
+					<include name="CancelRegistrationAndRefund" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+		
+	<test name="Продажа билета на поезд Москва - Париж (№ 023Й)"
+		preserve-order="true"
+		enabled="true">
+		<parameter name="trainNumber" value="8" />
+		<parameter name="payMethod" value="bank" />
+		<parameter name="paymentCard" value="2" />
+		<classes>
+			<class name="test.ru.oooinex.autotests.buyticket.tests.DirectTrainTest">
+				<methods>
+					<include name="Login" />
+					<include name="FillStartForm" />
+					<include name="SelectDirectTrain" />
+					<include name="SelectWagonDirectTrain" />
+					<include name="FillPassengerForms" />
+					<include name="FillPlaceSigns" />
+					<exclude name="CheckBedding" />
+					<include name="CheckTariffs" />
+					<include name="PassengerDataValidation" />
+					<include name="Payment" />
+					<include name="CompleteOrderProcessing" />
+					<include name="Results" />
+					<include name="CheckResultTariffs" />
+					<exclude name="CheckOrderFormsWithoutRefund" />
+					<exclude name="CancelRegistrationAndRefund" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

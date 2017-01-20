@@ -1,0 +1,1052 @@
+{
+	"trains": 
+	[
+		{
+			"id": 1,
+			"description": "Продажа билета на поезд дальнего следования в одну сторону на внутренний рейс, вагон 'Купе'",
+			"from": "МОСКВА",
+			"to": "КАЗАНЬ ПАСС",
+			"dayOfWeek": [7, 0],
+			"departureTime": [0, 24], 
+			"onlyWithTickets": true,
+			"localTrain": false,
+			"return": false,
+			"routeOptions": [
+				{
+					"directTrain": [
+						{
+							"trainNumber": "№ 002Й",
+							"carCheckers": "все",
+							"wagonType": "Купе (2У)",
+							"wagonCategory": "У1",
+							"servicesAndCapabilities": "",
+							"carrier": "",
+							"places": {
+								"plGender": "Смешанное",
+								"plKupe": false, 
+								"range0": 1,
+								"range1": 40,
+								"plBedding": true,
+								"plUpDown": "2 нижних",
+								"plComp": "Не имеет значения"
+							}
+						},
+						{
+							"transferTrainNumber": "",
+							"transferWagonType": "",
+							"transferWagonCategory": "",
+							"transferServicesAndCapabilities": "",
+							"carrier": "",
+							"transferStation": "",
+							"transferTimeFrom": "",
+							"transferTimeTo": "",
+							"showAll": false,
+							"places": {
+								"plGender": "",
+								"plKupe": "",
+								"range0": 0,
+								"range1": 0,
+								"plBedding": "",
+								"plUpDown": "",
+								"plComp": ""
+							}
+						}
+					],
+					"foreignTrain": false
+				},
+				{
+					"returnTrain": [
+						{
+							"trainNumber": "",
+							"carCheckers": "все",
+							"wagonType": "",
+							"wagonCategory": "",
+							"servicesAndCapabilities": "",
+							"carrier": "",
+							"places": {
+								"plGender": "",
+								"plKupe": "",
+								"range0": "",
+								"range1": "",
+								"plBedding": "",
+								"plUpDown": "",
+								"plComp": ""
+							}
+						},
+						{
+							"transferTrainNumber": "",
+							"transferWagonType": "",
+							"transferWagonCategory": "",
+							"transferServicesAndCapabilities": "",
+							"carrier": "",
+							"transferStation": "",
+							"transferTimeFrom": "",
+							"transferTimeTo": "",
+							"showAll": false,
+							"places": {
+								"plGender": "",
+								"plKupe": "",
+								"range0": "",
+								"range1": "",
+								"plBedding": "",
+								"plUpDown": "",
+								"plComp": ""
+							}
+						}
+					],
+					"foreignTrain": false
+				}
+			],
+			"passengers": [
+				{
+					"id": 1,
+					"lastName": "Иванов",
+					"firstName": "Петр",
+					"middleName": "Сидорович",
+					"documentType": "Паспорт РФ",
+					"documentNumber": "4504123123",
+					"tariff": "Полный",
+					"citizenship": "Россия",
+					"gender": "Мужской",
+					"dateOfBirth": "03.05.1997",
+					"insurance": "ООО «Группа Ренессанс Страхование»",
+					"phoneNumber": "8 916 1111111"
+				},
+				{
+					"id": 2,
+					"lastName": "Иванова",
+					"firstName": "Мария",
+					"middleName": "Ивановна",
+					"documentType": "Свидетельство о рождении",
+					"documentNumber": "IVФЯ123456",
+					"tariff": "Детский",
+					"citizenship": "Россия",
+					"gender": "Женский",
+					"dateOfBirth": "03.05.2010",
+					"insurance": "ПАО СК «Росгосстрах»",
+					"phoneNumber": "8 916 1111111"
+				}
+			]
+		},
+		{
+			"id": 2,
+			"description": "Продажа билета на поезд дальнего следования в одну сторону на внутренний рейс, вагон 'Люкс', детские места (с местом и без места)",
+			"from": "МОСКВА",
+			"to": "КАЗАНЬ ПАСС",
+			"dayOfWeek": [3, 1],
+			"departureTime": [0, 24], 
+			"onlyWithTickets": true,
+			"localTrain": false,
+			"return": false,
+			"routeOptions": [
+				{
+					"directTrain": [
+						{
+							"trainNumber": "№ 002Й",
+							"carCheckers": "все",
+							"wagonType": "СВ (1Э)",
+							"wagonCategory": "МЖ У1",
+							"servicesAndCapabilities": "",
+							"carrier": "",
+							"places": {
+								"plGender": "Смешанное",
+								"plKupe": false,
+								"range0": 0,
+								"range1": 0,
+								"plBedding": true,
+								"plUpDown": "Не имеет значения",
+								"plComp": "Не имеет значения"
+							}
+						},
+						{
+							"transferTrainNumber": "",
+							"transferWagonType": "",
+							"transferWagonCategory": "",
+							"transferServicesAndCapabilities": "",
+							"carrier": "",
+							"transferStation": "",
+							"transferTimeFrom": "",
+							"transferTimeTo": "",
+							"showAll": false,
+							"places": {
+								"plGender": "",
+								"plKupe": "",
+								"range0": 0,
+								"range1": 0,
+								"plBedding": "",
+								"plUpDown": "",
+								"plComp": ""
+							}
+						}
+					],
+					"foreignTrain": false
+				},
+				{
+					"returnTrain": [
+						{
+							"trainNumber": "",
+							"carCheckers": "все",
+							"wagonType": "",
+							"wagonCategory": "",
+							"servicesAndCapabilities": "",
+							"carrier": "",
+							"places": {
+								"plGender": "",
+								"plKupe": "",
+								"range0": "",
+								"range1": "",
+								"plBedding": "",
+								"plUpDown": "",
+								"plComp": ""
+							}
+						},
+						{
+							"transferTrainNumber": "",
+							"transferWagonType": "",
+							"transferWagonCategory": "",
+							"transferServicesAndCapabilities": "",
+							"carrier": "",
+							"transferStation": "",
+							"transferTimeFrom": "",
+							"transferTimeTo": "",
+							"showAll": false,
+							"places": {
+								"plGender": "",
+								"plKupe": "",
+								"range0": "",
+								"range1": "",
+								"plBedding": "",
+								"plUpDown": "",
+								"plComp": ""
+							}
+						}
+					],
+					"foreignTrain": false
+				}
+			],
+			"passengers": 
+			[
+				{
+					"id": 1,
+					"lastName": "Иванов",
+					"firstName": "Петр",
+					"middleName": "Сидорович",
+					"documentType": "Паспорт РФ",
+					"documentNumber": "4504123123",
+					"tariff": "Полный",
+					"citizenship": "Россия",
+					"gender": "Мужской",
+					"dateOfBirth": "03.05.1997",
+					"insurance": "",
+					"phoneNumber": "8 916 1111111"
+				},
+				{
+					"id": 2,
+					"lastName": "Иванова",
+					"firstName": "Мария",
+					"middleName": "Ивановна",
+					"documentType": "Свидетельство о рождении",
+					"documentNumber": "IVФЯ123456",
+					"tariff": "Детский",
+					"citizenship": "Россия",
+					"gender": "Женский",
+					"dateOfBirth": "03.05.2010",
+					"insurance": "",
+					"phoneNumber": "8 916 1111111"
+				},
+				{
+					"id": 3,
+					"lastName": "Иванова",
+					"firstName": "Катерина",
+					"middleName": "Ивановна",
+					"documentType": "Свидетельство о рождении",
+					"documentNumber": "IVФЯ123457",
+					"tariff": "Детский без места",
+					"citizenship": "Россия",
+					"gender": "Женский",
+					"dateOfBirth": "03.05.2010",
+					"insurance": "",
+					"phoneNumber": "8 916 1111111"
+				}
+			]
+		},
+		{
+			"id": 3,
+			"description": "Продажа билета на поезд дальнего следования в одну сторону на внутренний рейс, плацкартный вагон, школьные места",
+			"from": "МОСКВА КАЗАНСКАЯ",
+			"to": "КАЗАНЬ ПАСС",
+			"dayOfWeek": [5, 1],
+			"departureTime": [0, 24], 
+			"onlyWithTickets": true,
+			"localTrain": false,
+			"return": false,
+			"routeOptions": [
+				{
+					"directTrain": [
+						{
+							"trainNumber": "№ 002Й",
+							"carCheckers": "все",
+							"wagonType": "Плацкартный (3Э)",
+							"wagonCategory": "",
+							"servicesAndCapabilities": "",
+							"carrier": "",
+							"places": {
+								"plGender": "Смешанное",
+								"plKupe": true,
+								"range0": 0,
+								"range1": 0,
+								"plBedding": true,
+								"plUpDown": "Не имеет значения",
+								"plComp": "Не имеет значения"
+							}
+						},
+						{
+							"transferTrainNumber": "",
+							"transferWagonType": "",
+							"transferWagonCategory": "",
+							"transferServicesAndCapabilities": "",
+							"carrier": "",
+							"transferStation": "",
+							"transferTimeFrom": "",
+							"transferTimeTo": "",
+							"showAll": false,
+							"places": {
+								"plGender": "",
+								"plKupe": "",
+								"range0": 0,
+								"range1": 0,
+								"plBedding": "",
+								"plUpDown": "",
+								"plComp": ""
+							}
+						}
+					],
+					"foreignTrain": false
+				},
+				{
+					"returnTrain": [
+						{
+							"trainNumber": "",
+							"carCheckers": "все",
+							"wagonType": "",
+							"wagonCategory": "",
+							"servicesAndCapabilities": "",
+							"carrier": "",
+							"places": {
+								"plGender": "",
+								"plKupe": "",
+								"range0": "",
+								"range1": "",
+								"plBedding": "",
+								"plUpDown": "",
+								"plComp": ""
+							}
+						},
+						{
+							"transferTrainNumber": "",
+							"transferWagonType": "",
+							"transferWagonCategory": "",
+							"transferServicesAndCapabilities": "",
+							"carrier": "",
+							"transferStation": "",
+							"transferTimeFrom": "",
+							"transferTimeTo": "",
+							"showAll": false,
+							"places": {
+								"plGender": "",
+								"plKupe": "",
+								"range0": "",
+								"range1": "",
+								"plBedding": "",
+								"plUpDown": "",
+								"plComp": ""
+							}
+						}
+					],
+					"foreignTrain": false
+				}
+			],
+			"passengers": [
+				{
+					"id": 1,
+					"lastName": "Иванов",
+					"firstName": "Петр",
+					"middleName": "Сидорович",
+					"documentType": "Паспорт РФ",
+					"documentNumber": "4504123123",
+					"tariff": "Школьный",
+					"citizenship": "Россия",
+					"gender": "Мужской",
+					"dateOfBirth": "",
+					"insurance": "",
+					"phoneNumber": "8 916 1111111"
+				},
+				{
+					"id": 2,
+					"lastName": "Иванова",
+					"firstName": "Мария",
+					"middleName": "Ивановна",
+					"documentType": "Свидетельство о рождении",
+					"documentNumber": "IVФЯ123456",
+					"tariff": "Детский",
+					"citizenship": "Россия",
+					"gender": "Женский",
+					"dateOfBirth": "03.05.2010",
+					"insurance": "ООО «Группа Ренессанс Страхование»",
+					"phoneNumber": "8 916 1111111"
+				}
+			]
+		},
+		{
+			"id": 4,
+			"description": "Продажа билета на поезд дальнего следования 'Сапсан', с тарифами 'SENIOR' и 'UNIOR'",
+			"from": "МОСКВА",
+			"to": "САНКТ-ПЕТЕРБУРГ",
+			"dayOfWeek": [5, 1],
+			"departureTime": [0, 24], 
+			"onlyWithTickets": true,
+			"localTrain": false,
+			"return": false,
+			"routeOptions": [
+				{
+					"directTrain": [
+						{
+							"trainNumber": "№ 760А",
+							"carCheckers": "все",
+							"wagonType": "Сидячий (1С)",
+							"wagonCategory": "У1",
+							"servicesAndCapabilities": "",
+							"carrier": "",
+							"places": {
+								"plGender": "Смешанное",
+								"plKupe": true,
+								"range0": 1,
+								"range1": 99,
+								"plBedding": true,
+								"plUpDown": "2 нижних",
+								"plComp": "Не имеет значения" 
+							}
+						},
+						{
+							"transferTrainNumber": "",
+							"transferWagonType": "",
+							"transferWagonCategory": "",
+							"transferServicesAndCapabilities": "",
+							"carrier": "",
+							"transferStation": "",
+							"transferTimeFrom": "",
+							"transferTimeTo": "",
+							"showAll": false,
+							"places": {
+								"plGender": "",
+								"plKupe": "",
+								"range0": 0,
+								"range1": 0,
+								"plBedding": "",
+								"plUpDown": "",
+								"plComp": ""
+							}
+						}
+					],
+					"foreignTrain": false
+				},
+				{
+					"returnTrain": [
+						{
+							"trainNumber": "",
+							"carCheckers": "все",
+							"wagonType": "",
+							"wagonCategory": "",
+							"servicesAndCapabilities": "",
+							"carrier": "",
+							"places": {
+								"plGender": "",
+								"plKupe": "",
+								"range0": "",
+								"range1": "",
+								"plBedding": "",
+								"plUpDown": "",
+								"plComp": ""
+							}
+						},
+						{
+							"transferTrainNumber": "",
+							"transferWagonType": "",
+							"transferWagonCategory": "",
+							"transferServicesAndCapabilities": "",
+							"carrier": "",
+							"transferStation": "",
+							"transferTimeFrom": "",
+							"transferTimeTo": "",
+							"showAll": false,
+							"places": {
+								"plGender": "",
+								"plKupe": "",
+								"range0": "",
+								"range1": "",
+								"plBedding": "",
+								"plUpDown": "",
+								"plComp": ""
+							}
+						}
+					],
+					"foreignTrain": false
+				}
+			],
+			"passengers": [
+				{
+					"id": 1,
+					"lastName": "Иванов",
+					"firstName": "Петр",
+					"middleName": "Сидорович",
+					"documentType": "Паспорт РФ",
+					"documentNumber": "4504123123",
+					"tariff": "SENIOR (от 60 лет)",
+					"citizenship": "Россия",
+					"gender": "Мужской",
+					"dateOfBirth": "01.01.1950",
+					"insurance": "",
+					"phoneNumber": "8 916 1111111"
+				},
+				{
+					"id": 2,
+					"lastName": "Иванова",
+					"firstName": "Мария",
+					"middleName": "Ивановна",
+					"documentType": "Паспорт РФ",
+					"documentNumber": "4500123445",
+					"tariff": "JUNIOR (от 10 до 21 года)",
+					"citizenship": "Россия",
+					"gender": "Женский",
+					"dateOfBirth": "01.01.1995",
+					"insurance": "",
+					"phoneNumber": "8 916 1111111"
+				}
+			]
+		},
+		{
+			"id": 5,
+			"description": "Продажа билета на поезд дальнего следования 'Сапсан', с тарифами 'SENIOR', 'JUNIOR (от 10 до 21 года)', 'Детский' и 'Детский без места'",
+			"from": "МОСКВА",
+			"to": "САНКТ-ПЕТЕРБУРГ",
+			"dayOfWeek": [5, 1],
+			"departureTime": [0, 24], 
+			"onlyWithTickets": true,
+			"localTrain": false,
+			"return": false,
+			"routeOptions": [
+				{
+					"directTrain": [
+						{
+							"trainNumber": "№ 760А",
+							"carCheckers": "все",
+							"wagonType": "Сидячий (1С)",
+							"wagonCategory": "У1",
+							"servicesAndCapabilities": "",
+							"carrier": "",
+							"places": {
+								"plGender": "Смешанное",
+								"plKupe": true,
+								"range0": 1,
+								"range1": 99,
+								"plBedding": true,
+								"plUpDown": "2 нижних",
+								"plComp": "Не имеет значения"
+							}
+						},
+						{
+							"transferTrainNumber": "",
+							"transferWagonType": "",
+							"transferWagonCategory": "",
+							"transferServicesAndCapabilities": "",
+							"carrier": "",
+							"transferStation": "",
+							"transferTimeFrom": "",
+							"transferTimeTo": "",
+							"showAll": false,
+							"places": {
+								"plGender": "",
+								"plKupe": "",
+								"range0": 0,
+								"range1": 0,
+								"plBedding": "",
+								"plUpDown": "",
+								"plComp": ""
+							}
+						}
+					],
+					"foreignTrain": false
+				},
+				{
+					"returnTrain": [
+						{
+							"trainNumber": "",
+							"carCheckers": "все",
+							"wagonType": "",
+							"wagonCategory": "",
+							"servicesAndCapabilities": "",
+							"carrier": "",
+							"places": {
+								"plGender": "",
+								"plKupe": "",
+								"range0": "",
+								"range1": "",
+								"plBedding": "",
+								"plUpDown": "",
+								"plComp": ""
+							}
+						},
+						{
+							"transferTrainNumber": "",
+							"transferWagonType": "",
+							"transferWagonCategory": "",
+							"transferServicesAndCapabilities": "",
+							"carrier": "",
+							"transferStation": "",
+							"transferTimeFrom": "",
+							"transferTimeTo": "",
+							"showAll": false,
+							"places": {
+								"plGender": "",
+								"plKupe": "",
+								"range0": "",
+								"range1": "",
+								"plBedding": "",
+								"plUpDown": "",
+								"plComp": ""
+							}
+						}
+					],
+					"foreignTrain": false
+				}
+			],
+			"passengers": [
+				{
+					"id": 1,
+					"lastName": "Иванов",
+					"firstName": "Петр",
+					"middleName": "Сидорович",
+					"documentType": "Паспорт РФ",
+					"documentNumber": "4504123123",
+					"tariff": "SENIOR (от 60 лет)",
+					"citizenship": "Россия",
+					"gender": "Мужской",
+					"dateOfBirth": "01.01.1950",
+					"insurance": "АО «СОГАЗ»",
+					"phoneNumber": "8 916 1111111"
+				},
+				{
+					"id": 2,
+					"lastName": "Иванова",
+					"firstName": "Мария",
+					"middleName": "Ивановна",
+					"documentType": "Свидетельство о рождении",
+					"documentNumber": "IVФЯ123456",
+					"tariff": "Детский без места",
+					"citizenship": "Россия",
+					"gender": "Женский",
+					"dateOfBirth": "01.01.1995",
+					"insurance": "ПАО СК «Росгосстрах»",
+					"phoneNumber": "8 916 1111111"
+				},
+				{
+					"id": 3,
+					"lastName": "Степанов",
+					"firstName": "Мефодий",
+					"middleName": "Епифанович",
+					"documentType": "Паспорт РФ",
+					"documentNumber": "4500123445",
+					"tariff": "JUNIOR (от 10 до 21 года)",
+					"citizenship": "Россия",
+					"gender": "Мужской",
+					"dateOfBirth": "01.01.1995",
+					"insurance": "АО «СК БЛАГОСОСТОЯНИЕ»",
+					"phoneNumber": "8 916 1111111"
+				},
+				{
+					"id": 4,
+					"lastName": "Иванова",
+					"firstName": "Мария",
+					"middleName": "Ивановна",
+					"documentType": "Свидетельство о рождении",
+					"documentNumber": "IVФЯ123456",
+					"tariff": "Детский",
+					"citizenship": "Россия",
+					"gender": "Женский",
+					"dateOfBirth": "01.01.1995",
+					"insurance": "ООО «Группа Ренессанс Страхование»",
+					"phoneNumber": "8 916 1111111"
+				}
+			]
+		},
+		{
+			"id": 6,
+			"description": "Продажа билета на поезд дальнего следования 'Сапсан', места для матери и ребенка",
+			"from": "МОСКВА",
+			"to": "САНКТ-ПЕТЕРБУРГ",
+			"dayOfWeek": [5, 1],
+			"departureTime": [0, 24], 
+			"onlyWithTickets": true,
+			"localTrain": false,
+			"return": false,
+			"routeOptions": [
+				{
+					"directTrain": [
+						{
+							"trainNumber": "№ 760А",
+							"carCheckers": "все",
+							"wagonType": "Сидячий (2В)",
+							"wagonCategory": "Д У1",
+							"servicesAndCapabilities": "",
+							"carrier": "",
+							"places": {
+								"plGender": "Смешанное",
+								"plKupe": true,
+								"range0": 0,
+								"range1": 0,
+								"plBedding": false,
+								"plUpDown": "",
+								"plComp": "Не имеет значения"
+							}
+						},
+						{
+							"transferTrainNumber": "",
+							"transferWagonType": "",
+							"transferWagonCategory": "",
+							"transferServicesAndCapabilities": "",
+							"carrier": "",
+							"transferStation": "",
+							"transferTimeFrom": "",
+							"transferTimeTo": "",
+							"showAll": false,
+							"places": {
+								"plGender": "",
+								"plKupe": "",
+								"range0": 0,
+								"range1": 0,
+								"plBedding": "",
+								"plUpDown": "",
+								"plComp": ""
+							}
+						}
+					],
+					"foreignTrain": false
+				},
+				{
+					"returnTrain": [
+						{
+							"trainNumber": "",
+							"carCheckers": "все",
+							"wagonType": "",
+							"wagonCategory": "",
+							"servicesAndCapabilities": "",
+							"carrier": "",
+							"places": {
+								"plGender": "",
+								"plKupe": "",
+								"range0": "",
+								"range1": "",
+								"plBedding": "",
+								"plUpDown": "",
+								"plComp": ""
+							}
+						},
+						{
+							"transferTrainNumber": "",
+							"transferWagonType": "",
+							"transferWagonCategory": "",
+							"transferServicesAndCapabilities": "",
+							"carrier": "",
+							"transferStation": "",
+							"transferTimeFrom": "",
+							"transferTimeTo": "",
+							"showAll": false,
+							"places": {
+								"plGender": "",
+								"plKupe": "",
+								"range0": "",
+								"range1": "",
+								"plBedding": "",
+								"plUpDown": "",
+								"plComp": ""
+							}
+						}
+					],
+					"foreignTrain": false
+				}
+			],
+			"passengers": [
+				{
+					"id": 1,
+					"lastName": "Иванова",
+					"firstName": "Мария",
+					"middleName": "Петровна",
+					"documentType": "Паспорт РФ",
+					"documentNumber": "4504123123",
+					"tariff": "Полный",
+					"citizenship": "Россия",
+					"gender": "Женский",
+					"dateOfBirth": "01.01.1960",
+					"insurance": "",
+					"phoneNumber": "8 916 1111111"
+				},
+				{
+					"id": 2,
+					"lastName": "Иванова",
+					"firstName": "Катерина",
+					"middleName": "Ивановна",
+					"documentType": "Свидетельство о рождении",
+					"documentNumber": "IVФЯ123457",
+					"tariff": "Детский без места",
+					"citizenship": "Россия",
+					"gender": "Женский",
+					"dateOfBirth": "03.05.2010",
+					"insurance": "",
+					"phoneNumber": "8 916 1111111"
+				}
+			]
+		},
+		{
+			"id": 7,
+			"description": "Продажа билета на поезд дальнего следования 7xxx номер",
+			"from": "МОСКВА КИЕВСКАЯ",
+			"to": "КАЛУГА",
+			"dayOfWeek": [5, 1],
+			"departureTime": [0, 24], 
+			"onlyWithTickets": true,
+			"localTrain": false,
+			"return": false,
+			"routeOptions": [
+				{
+					"directTrain": [
+						{
+							"trainNumber": "№ 7081",
+							"carCheckers": "все",
+							"wagonType": "Сидячий (1С)",
+							"wagonCategory": "",
+							"servicesAndCapabilities": "",
+							"carrier": "",
+							"places": {
+								"plGender": "Смешанное",
+								"plKupe": true,
+								"range0": 1,
+								"range1": 99,
+								"plBedding": true,
+								"plUpDown": "2 нижних",
+								"plComp": "Не имеет значения"
+							}
+						},
+						{
+							"transferTrainNumber": "",
+							"transferWagonType": "",
+							"transferWagonCategory": "",
+							"transferServicesAndCapabilities": "",
+							"carrier": "",
+							"transferStation": "",
+							"transferTimeFrom": "",
+							"transferTimeTo": "",
+							"showAll": false,
+							"places": {
+								"plGender": "",
+								"plKupe": "",
+								"range0": 0,
+								"range1": 0,
+								"plBedding": "",
+								"plUpDown": "",
+								"plComp": ""
+							}
+						}
+					],
+					"foreignTrain": false
+				},
+				{
+					"returnTrain": [
+						{
+							"trainNumber": "",
+							"carCheckers": "все",
+							"wagonType": "",
+							"wagonCategory": "",
+							"servicesAndCapabilities": "",
+							"carrier": "",
+							"places": {
+								"plGender": "",
+								"plKupe": "",
+								"range0": "",
+								"range1": "",
+								"plBedding": "",
+								"plUpDown": "",
+								"plComp": ""
+							}
+						},
+						{
+							"transferTrainNumber": "",
+							"transferWagonType": "",
+							"transferWagonCategory": "",
+							"transferServicesAndCapabilities": "",
+							"carrier": "",
+							"transferStation": "",
+							"transferTimeFrom": "",
+							"transferTimeTo": "",
+							"showAll": false,
+							"places": {
+								"plGender": "",
+								"plKupe": "",
+								"range0": "",
+								"range1": "",
+								"plBedding": "",
+								"plUpDown": "",
+								"plComp": ""
+							}
+						}
+					],
+					"foreignTrain": false
+				}
+			],
+			"passengers": [
+				{
+					"id": 1,
+					"lastName": "Иванов",
+					"firstName": "Петр",
+					"middleName": "Сидорович",
+					"documentType": "Паспорт РФ",
+					"documentNumber": "4504123123",
+					"tariff": "Полный",
+					"citizenship": "Россия",
+					"gender": "Мужской",
+					"dateOfBirth": "01.01.1958",
+					"insurance": "",
+					"phoneNumber": "8 916 1111111"
+				}
+			]
+		},
+		{
+			"id": 8,
+			"description": "Продажа билета на поезд Москва - Париж",
+			"from": "МОСКВА",
+			"to": "ПАРИЖ",
+			"dayOfWeek": [3, 2],
+			"departureTime": [0, 24], 
+			"onlyWithTickets": true,
+			"localTrain": false,
+			"return": false,
+			"routeOptions": [
+				{
+					"directTrain": [
+						{
+							"trainNumber": "№ 023Й",
+							"carCheckers": "все",
+							"wagonType": "СВ (1Л; 1/2)",
+							"wagonCategory": "МЖ",
+							"servicesAndCapabilities": "",
+							"carrier": "ФПК",
+							"places": {
+								"plGender": "Смешанное",
+								"plKupe": false,
+								"range0": 0,
+								"range1": 0,
+								"plBedding": true,
+								"plUpDown": "2 нижних",
+								"plComp": "Не имеет значения"
+							}
+						},
+						{
+							"transferTrainNumber": "",
+							"transferWagonType": "",
+							"transferWagonCategory": "",
+							"transferServicesAndCapabilities": "",
+							"carrier": "",
+							"transferStation": "",
+							"transferTimeFrom": "0",
+							"transferTimeTo": "0",
+							"showAll": false,
+							"places": {
+								"plGender": "",
+								"plKupe": true,
+								"range0": 1,
+								"range1": 20,
+								"plBedding": true,
+								"plUpDown": "Не имеет значения",
+								"plComp": ""
+							}
+						}
+					],
+					"foreignTrain": true
+				},
+				{
+					"returnTrain": [
+						{
+							"trainNumber": "",
+							"carCheckers": "",
+							"wagonType": "",
+							"wagonCategory": "",
+							"servicesAndCapabilities": "",
+							"carrier": "",
+							"places": {
+								"plGender": "Смешанное",
+								"plKupe": true,
+								"range0": 1,
+								"range1": 10,
+								"plBedding": false,
+								"plUpDown": "",
+								"plComp": ""
+							}
+						},
+						{
+							"transferTrainNumber": "",
+							"transferWagonType": "",
+							"transferWagonCategory": "",
+							"transferServicesAndCapabilities": "",
+							"carrier": "",
+							"transferStation": "",
+							"transferTimeFrom": "0",
+							"transferTimeTo": "0",
+							"showAll": false,
+							"places": {
+								"plGender": "",
+								"plKupe": false,
+								"range0": 1,
+								"range1": 40,
+								"plBedding": false,
+								"plUpDown": "",
+								"plComp": ""
+							}
+						}
+					],
+					"foreignTrain": true
+				}
+			],
+			"passengers": 
+			[
+				{
+					"id": 1,
+					"lastName": "Ivanov",
+					"firstName": "Petr",
+					"middleName": "",
+					"documentType": "Заграничный паспорт",
+					"documentNumber": "450012345",
+					"tariff": "SENIOR (от 60 лет)",
+					"citizenship": "Россия",
+					"gender": "Мужской",
+					"dateOfBirth": "01.01.1950",
+					"insurance": "",
+					"phoneNumber": "8 916 1111111"
+				},
+
+				{
+					"id": 2,
+					"lastName": "Ivanova",
+					"firstName": "Maria",
+					"middleName": "",
+					"documentType": "Заграничный паспорт",
+					"documentNumber": "450012344",
+					"tariff": "JUNIOR (от 12 до 26 лет)",
+					"citizenship": "Россия",
+					"gender": "Женский",
+					"dateOfBirth": "01.01.1995",
+					"insurance": "",
+					"phoneNumber": "8 916 1111111"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="1" name="Проверка подсказки станций отправления и назначения">
+	
+	<parameter name="suggestions_DataFile" value="/src/test/ru/oooinex/data/suggestions/SuggestionsData.json" />
+		
+	<test name="Москва - Казань, проверка полноты списка и правильности сортировки" 
+		preserve-order="true"
+		enabled="true">
+		<parameter name="suggestNumber" value="1" />
+		<classes>
+			<class
+				name="test.ru.oooinex.autotests.suggestions.tests.SuggestionsTest">
+				<methods>
+					<include name="ProfferTest" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="Юктали - Херенд, проверка полноты списка и правильности сортировки" 
+		preserve-order="true"
+		enabled="true">
+		<parameter name="suggestNumber" value="2" />
+		<classes>
+			<class
+				name="test.ru.oooinex.autotests.suggestions.tests.SuggestionsTest">
+				<methods>
+					<include name="ProfferTest" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+</suite>

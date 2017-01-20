@@ -1,0 +1,134 @@
+{
+	"trains": 
+	[
+		{
+			"id": 1,
+			"description": "Продажа билета на поезд дальнего следования туда и обратно (Тула - Москва)",
+			"from": "ТУЛА",
+			"to": "МОСКВА",
+			"dayOfWeek": [5, 1],
+			"departureTime": [0, 24], 
+			"onlyWithTickets": true,
+			"localTrain": true,
+			"return": true,
+			"routeOptions": [
+				{
+					"directTrain": [
+						{
+							"trainNumber": "№ 106Х",
+							"carCheckers": "все",
+							"wagonType": "Купе (2Э)",
+							"wagonCategory": "У1",
+							"servicesAndCapabilities": "",
+							"carrier": "",
+							"places": {
+								"plGender": "Смешанное",
+								"plKupe": true,
+								"range0": "1",
+								"range1": "50",
+								"plBedding": true,
+								"plUpDown": "2 нижних",
+								"plComp": "Не имеет значения"
+							}
+						},
+						{
+							"transferTrainNumber": "",
+							"transferWagonType": "",
+							"transferWagonCategory": "",
+							"transferServicesAndCapabilities": "",
+							"carrier": "",
+							"transferStation": "",
+							"transferTimeFrom": "",
+							"transferTimeTo": "",
+							"showAll": false,
+							"places": {
+								"plGender": "",
+								"plKupe": false,
+								"range0": "1",
+								"range1": "20",
+								"plBedding": true,
+								"plUpDown": "",
+								"plComp": ""
+							}
+						}
+					],
+					"foreignTrain": false
+				},
+				{
+					"returnTrain": [
+						{
+							"trainNumber": "№ 721Ч",
+							"carCheckers": "все",
+							"wagonType": "Сидячий (2С)",
+							"wagonCategory": "",
+							"servicesAndCapabilities": "",
+							"carrier": "",
+							"places": {
+								"plGender": "",
+								"plKupe": "",
+								"range0": "",
+								"range1": "",
+								"plBedding": "",
+								"plUpDown": "",
+								"plComp": ""
+							}
+						},
+						{
+							"transferTrainNumber": "",
+							"transferWagonType": "",
+							"transferWagonCategory": "",
+							"transferServicesAndCapabilities": "",
+							"carrier": "",
+							"transferStation": "",
+							"transferTimeFrom": "",
+							"transferTimeTo": "",
+							"showAll": false,
+							"places": {
+								"plGender": "",
+								"plKupe": "",
+								"range0": "",
+								"range1": "",
+								"plBedding": "",
+								"plUpDown": "",
+								"plComp": ""
+							}
+						}
+					],
+					"foreignTrain": false
+				}
+			],
+			"passengers": 
+			[
+				{
+					"id": 1,
+					"lastName": "Иванов",
+					"firstName": "Петр",
+					"middleName": "Сидорович",
+					"documentType": "Паспорт моряка",
+					"documentNumber": "ВМ1234567",
+					"tariff": "Полный",
+					"citizenship": "Россия",
+					"gender": "Мужской",
+					"dateOfBirth": "01.01.1950",
+					"insurance": "",
+					"phoneNumber": "8 916 1111111"
+				},
+
+				{
+					"id": 2,
+					"lastName": "Иванов",
+					"firstName": "Петр",
+					"middleName": "Сидорович",
+					"documentType": "Паспорт формы СССР",
+					"documentNumber": "IVГР585858",
+					"tariff": "Полный",
+					"citizenship": "Россия",
+					"gender": "Мужской",
+					"dateOfBirth": "01.01.1995",
+					"insurance": "",
+					"phoneNumber": "8 916 1111111"
+				}
+			]
+		}
+	]
+}
