@@ -1,0 +1,1 @@
+jar -cf AutotestConfig.war -C war/ .

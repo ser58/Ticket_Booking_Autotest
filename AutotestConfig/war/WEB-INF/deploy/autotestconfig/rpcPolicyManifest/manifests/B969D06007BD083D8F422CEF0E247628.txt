@@ -1,0 +1,2 @@
+serviceClass: ru.inex.autotestconfig.client.ConfigService
+path: 6A84C60C96BE13C66CEDFEF3F97F13F3.gwt.rpc

@@ -1,0 +1,3 @@
+# Module autotestconfig
+# RPC service class, partial path of RPC policy file
+ru.inex.autotestconfig.client.ConfigService, 6A84C60C96BE13C66CEDFEF3F97F13F3.gwt.rpc
